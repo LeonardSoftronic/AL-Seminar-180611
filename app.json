@@ -1,0 +1,26 @@
+{
+  "id": "57d4f496-ec76-4a20-bc37-dcef8d085cb4",
+  "name": "AL Seminar 180611",
+  "publisher": "Leonard Cooks",
+  "brief": "",
+  "description": "",
+  "version": "1.0.0.0",
+  "compatibilityId": "1.0.0.0",
+  "privacyStatement": "",
+  "EULA": "",
+  "help": "",
+  "url": "",
+  "logo": "",
+  "capabilities": [],
+  "dependencies": [],
+  "screenshots": [],
+  "showMyCode": true,
+  "target": "Internal",
+  "features": "TranslationFile",
+  "platform": "11.0.0.0",
+  "application": "11.0.0.0",
+  "idRange": {
+    "from": 123456700,
+    "to": 123456799
+  }
+}
