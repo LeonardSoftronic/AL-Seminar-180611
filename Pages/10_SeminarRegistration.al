@@ -1,4 +1,4 @@
-page 123456710 "Seminar Registration card"
+page 123456710 "Seminar Registration"
 {
    
 
@@ -155,7 +155,7 @@ page 123456710 "Seminar Registration card"
                 PromotedIsBig = true;
                 PromotedCategory = Process;
                 ShortcutKey = F9;
-                //RunObject = codeunit "Seminar-Post (Yes/No)";
+                RunObject = codeunit "Seminar-Post (Yes/No)";
             }
             action("&Print")
             {

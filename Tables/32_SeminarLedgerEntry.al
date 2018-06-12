@@ -10,8 +10,8 @@ table 123456732 "Seminar Ledger Entry"
     
 
     Caption = 'Seminar Ledger Entry';
-    //LookupPageId="Seminar Ledger Entries";
-    //DrillDownPageId="Seminar Ledger Entries";
+    LookupPageId="Seminar Ledger Entries";
+    DrillDownPageId="Seminar Ledger Entries";
 
     fields
     {

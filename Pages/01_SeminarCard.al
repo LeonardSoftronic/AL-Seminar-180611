@@ -85,15 +85,15 @@ page 123456701 "Seminar Card"
                     PromotedOnly = true;
                 }
                 // >> Lab 8-2
-               // action("Ledger Entries")
-                //{
-                  //  RunObject=page "Seminar Ledger Entries";
-                   // RunPageLink="Seminar No."=field("No.");
-                   // Promoted=true;
-                    //PromotedCategory=Process;
-                    //ShortcutKey="Ctrl+F7";
-                    //Image=WarrantyLedger;
-                //}
+                action("Ledger Entries")
+                {
+                    RunObject=page "Seminar Ledger Entries";
+                    RunPageLink="Seminar No."=field("No.");
+                    Promoted=true;
+                    PromotedCategory=Process;
+                    ShortcutKey="Ctrl+F7";
+                    Image=WarrantyLedger;
+                }
                 // >> Lab 8-2
                 action("&Registrations")
                 {
@@ -111,7 +111,7 @@ page 123456701 "Seminar Card"
         {
             action("Seminar Registration")
             {
-                RunObject= page "Seminar Registration Card";
+                RunObject= page "Seminar Registration";
                 RunPageLink="Seminar No."=field("No.");
                 RunPageMode=Create;
                 Image=NewTimesheet;

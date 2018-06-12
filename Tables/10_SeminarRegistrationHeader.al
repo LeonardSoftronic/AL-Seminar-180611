@@ -1,9 +1,15 @@
 table 123456710 "Seminar Registration Header"
 {
-   
+    // CSD1.00 - 2018-01-01 - D. E. Veloper
+    //   Chapter 6 - Lab 1-3 & Lab 1-4
+    //     - Created new table
+    //   Chapter 8 - Lab 2-3
+    //     - Added LookupId and DrillDownPageId
+    //   Chapter 9 - Lab 1-1
+    //     - Added Field "No. Printed"
     Caption = 'Seminar Registration Header';
-    //LookupPageId="Posted Seminar Reg. List";
-    //DrillDownPageId="Posted Seminar Reg. List";
+    LookupPageId="Posted Seminar Reg. List";
+    DrillDownPageId="Posted Seminar Reg. List";
 
     Fields
     {

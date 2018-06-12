@@ -1,9 +1,15 @@
 page 123456713 "Seminar Registration List"
 {
-    
+    // CSD1.00 - 2018-01-01 - D. E. Veloper
+    //   Chapter 6 - Lab 3
+    //     - Created new page
+    //   Chapter 7 - Lab 5-8
+    //     - Added Post Action 
+    //   Chapter 9 - Lab 5-8
+    //     - Added Post Acti
 
     Caption = 'Seminar Registration List';
-    CardPageID = "Seminar Registration Card";
+    CardPageID = "Seminar Registration";
     Editable = false;
     PageType = List;
     SourceTable = "Seminar Registration Header";
@@ -82,7 +88,7 @@ page 123456713 "Seminar Registration List"
                     PromotedIsBig = true;
                     PromotedCategory = Process;
                     ShortcutKey = F9;
-                    //RunObject = codeunit "Seminar-Post (Yes/No)";
+                    RunObject = codeunit "Seminar-Post (Yes/No)";
                 }
                 action("&Print")
                 {
