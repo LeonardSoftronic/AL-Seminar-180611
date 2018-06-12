@@ -12,7 +12,7 @@ report 123456700 "Create Seminar Invoices"
     {
         dataitem("Seminar Ledger Entry";"Seminar Ledger Entry")
         {
-
+            
             trigger OnAfterGetRecord();
             begin
                 if "Bill-to Customer No." <> Customer."No." then
