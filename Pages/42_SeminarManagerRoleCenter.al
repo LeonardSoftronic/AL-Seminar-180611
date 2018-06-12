@@ -1,7 +1,5 @@
 page 123456742 "Seminar Manager RoleCenter"
-// CSD1.00 - 2018-01-01 - D. E. Veloper
-//   Chapter 10 - Lab 1 - 5
-//     - Created new page
+
 {
     PageType = RoleCenter;
     Caption='Seminar Manager RoleCenter';
